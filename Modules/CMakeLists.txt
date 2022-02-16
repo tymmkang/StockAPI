@@ -1,0 +1,8 @@
+# Modules
+
+SCAF_UTILITY_FUNC_GET_SUBDIRECTORIES(${CMAKE_CURRENT_LIST_DIR} SUBDIRECTORIES)
+message(STATUS "Module list :")
+foreach(SUBDIRECTORY ${SUBDIRECTORIES})
+    message(STATUS "- ${SUBDIRECTORY}")
+    add_subdirectory(${SUBDIRECTORY})
+endforeach()
