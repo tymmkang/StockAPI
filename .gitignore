@@ -1,3 +1,5 @@
 Modules/*/**/Externals
 CMakeBuild
 Output
+
+*.gen.h
